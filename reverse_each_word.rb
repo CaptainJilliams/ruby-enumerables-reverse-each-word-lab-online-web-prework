@@ -1,3 +1,3 @@
-def reverse_each_word.each do |back|
+def reverse_each_word.each
 
 end
