@@ -19,5 +19,5 @@ end
 
 def reverse_each_word(array)
   new_sentence = array.split(" ")
-  
+  new_sentence.collect {|p| p.reverse!}
 end
