@@ -1,9 +1,6 @@
 def reverse_each_word(sentence1)
   split_string = sentence1.split("")
   new_array = []
-  new_array << split_string.unshift
+  sentence1.size.times {new_array << split_string.pop}
 
-  new_array.each do |char|
-    char.reverse
-  end
 end
