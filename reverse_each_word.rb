@@ -4,6 +4,6 @@ def reverse_each_word(sentence1)
 
   our_string. each do |letter|
     reversed_string.unshift(letter)
-    reversed_string.join('')
   end
+  
 end
