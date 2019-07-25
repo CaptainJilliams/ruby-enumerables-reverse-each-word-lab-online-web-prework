@@ -18,5 +18,6 @@ end
 
 
 def reverse_each_word(array)
-  array.split(" ").collect {|p| p.reverse!}.join(" ")
+  new_sentence = array.split(" ")
+  
 end
