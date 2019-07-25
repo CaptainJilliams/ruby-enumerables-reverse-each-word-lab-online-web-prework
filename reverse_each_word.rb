@@ -10,4 +10,6 @@ def reverse_each_word(sentence1)
 
   new_word.each do |word|
     end_loop = new_word.length
+    new_string = ""
+    while end_loop > 0
 end
